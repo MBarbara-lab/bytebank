@@ -6,7 +6,7 @@ export class CheckingAccount extends Account {
     }
 
     toWithdraw (amount) {
-        let tax = 1.1;
+        const tax = 1.1;
         return this._toWithdrawa(amount, tax);
     }
 }

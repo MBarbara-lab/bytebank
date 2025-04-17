@@ -1,6 +1,7 @@
 import { Client } from "./Client.js";
-import { SavingsAccount } from "./SavingsAccount.js";
-import { CheckingAccount } from "./CheckingAccount.js";
+import { SavingsAccount } from "./Accounts/SavingsAccount.js";
+import { CheckingAccount } from "./Accounts/CheckingAccount.js";
+import { SalaryAccount } from "./Accounts/SalaryAccount.js";
 
 const joana = new Client("Joaninha", "Bonitinha", "012.345.678-99");
 const contaPoupancaJoana = new SavingsAccount("Joaninha Bonitinha", 200, "0001");
